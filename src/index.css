@@ -23,3 +23,53 @@ body {
     width: 50%;
     padding: 0px 60px;
 }
+
+/* ...existing code... */
+
+.grootimage {
+    height: auto;
+    width: 30vw;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+
+.mainsection {
+    margin: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.ptag {
+    width: 50%;
+    padding: 0px 60px;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    .grootimage {
+        width: 80%; /* Adjust image size for smaller screens */
+        margin: 20px auto;
+    }
+
+    .mainsection {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+
+    .ptag {
+        width: 90%; /* Adjust text width */
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .grootimage {
+        width: 100%; /* Full width for very small screens */
+    }
+
+    .ptag {
+        width: 100%;
+        padding: 0px 10px;
+    }
+}
