@@ -8,6 +8,11 @@ body {
     margin: 0px 20px;
 }
 
+.grootimage :hover {
+    transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
 .mainsection {
     margin: 50px 30px;
     display: flex;
