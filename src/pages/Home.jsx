@@ -12,7 +12,7 @@ const Home = ({ goToDisplay }) => {
         <h1>Groot Academy - Best course in jaipur</h1>
         <div className="mainsection">
           <img className='grootimage' src="https://media.licdn.com/dms/image/v2/D4D22AQFKs3JzSVssdQ/feedshare-shrink_800/B4DZZdvOBCG8As-/0/1745329384596?e=1748476800&v=beta&t=CsSNrfWe90m7iKcUUSOiMb_HjNZIxmy-6ulWmHJc25k" alt="" />
-          <div className="ptag"> <p>🌱 Groot Academy: Best Full Stack Dev Course in Jaipur
+          <div className="ptag"> <p>🌱 Groot Academy: Best Full Stack Dev Courses in Jaipur
 
             Welcome to Groot Academy – where code meets confidence.
 
